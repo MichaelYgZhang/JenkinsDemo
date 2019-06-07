@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping(value = "/hello")
     public String hello() {
-        return "hello.jenkins..修改后";
+        return "hello.jenkins..修改后123";
     }
 }
